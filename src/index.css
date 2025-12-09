@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 
 /* Box sizing rules */
 *,
@@ -73,3 +75,10 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(70, 66, 66, 0.5);
+}
+
+.hover:shadow-3xl:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}

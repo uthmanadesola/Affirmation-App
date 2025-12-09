@@ -1,4 +1,4 @@
-import { createRootRoute, createRoute, Link, type AnyRoute } from "@tanstack/react-router";
+import { createRoute, type AnyRoute } from "@tanstack/react-router";
 import { createTree } from "../../router";
 import article from "./article";
 
